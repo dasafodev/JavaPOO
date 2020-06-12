@@ -3,7 +3,6 @@ package mundo;
 public class Dios {
 
 	
-	
 	public static void main(String[] args) {
 		
 		Persona persona1 = new Persona("Daniel", 20, 1.7);

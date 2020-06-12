@@ -6,10 +6,8 @@ public class Persona {
 	private String nombre;
 	
 	//Declara un atributo de tipo int para la edad
-	private int edad;
 	
 	//Decalara un atributo de tipo double para la altura
-	private double altura;
 	
 	//Constructor
 	public Persona(String pNombre, int pEdad, double pAltura) {
@@ -26,26 +24,19 @@ public class Persona {
 	}
 	
 	//Implementa el metodo para cambiarle la edad 
-	public void cambiarEdad( int pAltura) {
-		altura= pAltura;	
-	}
+	
 	
 	//Implementa el metodo para cambiarle la altura 
-	public void cambiarAltura( int pEdad) {
-		edad= pEdad;	
-	}
+	
 	
 	public String obtenerNombre() {
 		return nombre;
 	}
 	
-	public int obtenerEdad() {
-		return edad;
-	}
+	//Implementa el metodo para obtener la edad 
 	
-	public double obtenerAltura() {
-		return altura;
-	}
+	
+	//Implementa el metodo para obtener la altura 
 	
 	
 }
